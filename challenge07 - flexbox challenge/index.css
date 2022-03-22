@@ -26,20 +26,26 @@ h1{
 .con2{
     margin: 0 auto;
     font-size: 21px;
-    
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 2em;
 }
 .con2 h2{
     color: #824936;
     text-align: center;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 2em;
 }
 .row{
     display: flex;
     justify-content: space-between;
+    padding-left: 1em;
+    padding-right: 1em;
 }
 .row p{
     padding-left: 2em;
     padding-right: 2em;
-    padding-bottom: 2em;
 }
 
 .img1{
@@ -51,10 +57,11 @@ h1{
     display: flex;
     justify-content: space-between;
 }
-.custom{
-    padding-left: 2em;
-    padding-right: 2em;
-    padding-bottom: 2em;
+
+.middle{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
 }
 
 .img2{
@@ -64,14 +71,15 @@ h1{
     margin: 0 auto;
     padding: 5em;
     justify-items: center;
-    display: flex;
-    justify-content: space-between;
 }
+
 .create{
     padding-left: 2em;
     padding-right: 2em;
     padding-bottom: 2em;
 }
+
+
 
 #img1{
     max-width: 50%;
@@ -82,7 +90,7 @@ h1{
 
 #img2{
     max-width: 50%;
-    padding-left: 2em;
+    /* padding-left: 2em;
     padding-right: 2em;
-    padding-bottom: 2em;
+    padding-bottom: 2em; */
 }
