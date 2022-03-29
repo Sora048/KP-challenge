@@ -1,0 +1,183 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3rem;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    width: 80%;
+    max-width: 1100px;
+    margin: 0 auto;
+    position: relative;
+}
+
+header {
+    background: #2E323F;
+    padding: 1em 0;
+    text-align: center;
+}
+
+.nav {
+    width: 100%;
+}
+
+.nav-toggle {
+    cursor: pointer;
+    border: 0;
+    width: 3em;
+    height: 3em;
+    padding: 0em;
+    border-radius: 50%;
+    background: #2E323F;
+    color: white;
+    transition: opacity 250ms ease;
+    
+    position: absolute;
+    left: 0;
+}
+
+.nav-toggle:focus,
+.nav-toggle:hover {
+    opacity: .75;
+}
+
+.hamburger {
+    width: 50%;
+    position: relative;
+}
+
+.hamburger,
+.hamburger::before,
+.hamburger::after {
+    display: block;
+    margin: 0 auto;
+    height: 3px;
+    background: white;
+}
+
+.hamburger::before,
+.hamburger::after {
+    content: '';
+    width: 100%;
+}
+
+.hamburger::before {
+    transform: translateY(-6px);
+}
+
+.hamburger::after {
+    transform: translateY(3px);
+}
+
+.nav {
+    visibility: hidden;
+    height: 0;
+    position: absolute;
+    
+}
+
+.nav--visible {
+    visibility: visible;
+    height: auto;
+    position: relative;
+} 
+
+.logo {
+    height: 30px;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    opacity: .85;
+    font-weight: 100;
+}
+
+.sign_up{
+    border-radius: 90px;
+    background: #A59678;
+    padding: .3em 1em;
+}
+
+.nav_item{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.item2{
+    margin-top: 2em;
+}
+.nav_list{
+    margin-top: 1em;
+}
+
+
+
+@media (min-width: 700px) {
+
+    
+    .nav-toggle {
+        display: none;
+        padding: 0;
+    }
+
+    .row {
+        display: flex;
+        justify-content: space-between;
+        padding: 0;
+    }
+    .nav {
+        visibility: visible;
+        display: flex;
+        padding: 0;
+    }
+    
+    .item1{
+        display: flex;
+        margin: 0;
+        margin-left: auto;
+    }
+    .item2{
+        display: flex;
+        margin: 0;
+        margin-left: 2em;
+    }
+
+    .nav_list{
+        margin: 0;
+        margin-left: 2em;
+    }
+
+    .hero__text {
+        width: 62%;
+    }
+    
+    .hero__img {
+        width: 32%;
+        align-self: flex-start;
+        margin: 0;
+    }
+    
+    .primary-content {
+        width: 62%;
+    }
+
+    .sidebar {
+        width: 32%;
+    }
+    
+    
+}
+
+@media (min-width: 1000px) {
+
+}
