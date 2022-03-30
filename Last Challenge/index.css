@@ -23,6 +23,7 @@ header {
     background: #2E323F;
     padding: 1em 0;
     text-align: center;
+    margin-bottom: 0;
 }
 
 .nav {
@@ -36,10 +37,9 @@ header {
     height: 3em;
     padding: 0em;
     border-radius: 50%;
-    background: #2E323F;
+    background: #42444d;
     color: white;
     transition: opacity 250ms ease;
-    
     position: absolute;
     left: 0;
 }
@@ -120,9 +120,37 @@ a{
     margin-top: 1em;
 }
 
+.main{
+    color: #fff;
+    background-color: #3B4050;
+    max-width: 100%;
+    padding: 2em;
+}
+.col{
+    margin-left: auto;
+    padding-top: auto;
+}
+.learn{
+    opacity: 1;
+    border-radius: 90px;
+    background: #A59678;
+    padding: .35em 1.5em;
+    cursor: pointer;
+}
+.learn:hover{
+    opacity: .80;
+}
 
+.middle{
+    text-align: center;
+    background-color: #6F737F;
+    padding: 1em;
+}
+h2{
+    color: #A59678;
+}
 
-@media (min-width: 700px) {
+@media (min-width: 1000px) {
 
     
     .nav-toggle {
@@ -157,7 +185,19 @@ a{
         margin-left: 2em;
     }
 
-    .hero__text {
+    .col{
+        max-width: 76%;
+        margin-left: 1.5em;
+        padding: 3.5em 0 0;
+    }
+
+    .mid{
+        max-width: 100%;
+        padding: 2em;
+    }
+    
+
+    /* .hero__text {
         width: 62%;
     }
     
@@ -173,11 +213,7 @@ a{
 
     .sidebar {
         width: 32%;
-    }
+    } */
     
     
-}
-
-@media (min-width: 1000px) {
-
 }
