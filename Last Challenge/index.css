@@ -168,6 +168,27 @@ aside h3{
     font-size: 1rem;
 }
 
+.footer{
+    background-color: #3B4050;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+.footer h1, .footer p{
+    color: #fff;
+}
+h5{
+    color: #A59678;
+    margin: 0;
+}
+.footer p{
+    font-size: .65em;
+}
+
+.footlings{
+    margin-top: 2em;
+}
+
+
 @media (min-width: 700px) and (max-width: 1000px){
 
     .lower{
@@ -249,6 +270,10 @@ aside h3{
     .hero_img{
         max-width: 100%;
     }
+    .lower_main{
+        max-width: 80%;
+        margin-right: 2em;
+    }
 
     .lower_aside{
         max-width: 33%;
@@ -261,19 +286,15 @@ aside h3{
         font-weight: normal;
     }
 
-    /* .hero__text {
-        width: 62%;
+    .footy{
+        margin: 0 auto;
     }
-    
-
-    
-    .primary-content {
-        width: 62%;
+    .foot_head{
+        margin: 0;
+       text-align: center;
+    }
+    .main_footling{
+        max-width: 50%;
     }
 
-    .sidebar {
-        width: 32%;
-    } */
-    
-    
 }
